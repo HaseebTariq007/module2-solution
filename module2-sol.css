@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+.box-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+}
+.title{
+    position: relative;    
+    float: right;
+    border-bottom:1px solid black ;
+    border-left: 1px solid black;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    
+}
+.text{
+    clear: right;
+    padding: 15px 10px 10px 10px;
+}
+.box-container article{
+    padding: 10px;
+}
+#chicken{
+    color: black;
+    background-color: rgb(238, 98, 98);
+}
+#Beef{
+    color: white;
+    background-color: brown;
+}
+#Sushi{
+    color: black;
+    background-color: palevioletred;
+}
+@media (min-width: 991px) {
+    .clg-lg-1, .clg-lg-2, .clg-lg-3, .clg-lg-4 ,.clg-lg-5,.clg-lg-6,.clg-lg-7,.clg-lg-8,.clg-lg-9,.clg-lg-10,.clg-lg-11,.clg-lg-12{
+        float: left;
+    }
+
+    .clg-lg-1{
+        width: 8.33%;
+    }
+    .clg-lg-2{
+        width: 16.66%;
+    }
+    .clg-lg-3{
+        width: 25%;
+    }
+    .clg-lg-4{
+        width: 33%;
+    }
+    .clg-lg-5{
+        width: 41.66%;
+    }
+    .clg-lg-6{
+        width: 50%;
+    }
+    
+    .clg-lg-7{
+        width: 58.33%;
+    }
+    .clg-lg-8{
+        width: 66.66%;
+    }
+    .clg-lg-9{
+        width: 74.99%;
+    }
+    .clg-lg-10{
+        width: 83.33%;
+    }
+    .clg-lg-11{
+        width: 91.66%;
+    }
+    .clg-lg-12{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .clg-md-1, .clg-md-2, .clg-md-3, .clg-md-4, 
+    .clg-md-5, .clg-md-6, .clg-md-7, .clg-md-8, 
+    .clg-md-9, .clg-md-10, .clg-md-11, .clg-md-12{
+        float: left;
+    }
+    .clg-md-1{
+        width: 8.33%;
+    }
+    .clg-md-2{
+        width: 16.66%;
+    }
+    .clg-md-3{
+        width: 25%;
+    }
+    .clg-md-4{
+        width: 33%;
+    }
+    .clg-md-5{
+        width: 41.66%;
+    }
+    .clg-md-6{
+        width: 50%;
+    }
+    .clg-md-7{
+        width: 58.33%;
+    }
+    .clg-md-8{
+        width: 66.66%;
+    }
+    .clg-md-9{
+        width: 74.99%;
+    }
+    .clg-md-10{
+        width: 83.33%;
+    }
+    .clg-md-11{
+        width: 91.66%;
+    }
+    .clg-md-12{
+        width: 100%;
+    }
+}
